@@ -1,0 +1,27 @@
+# JetBrains
+.idea
+package-lock.json
+
+# OS X
+.DS_Store*
+Icon\r\r
+._*
+
+# Windows
+Thumbs.db
+thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+
+
+Würde android/ löschen
+Würde app/components/ löschen
+Würde app/config/ löschen
+Würde app/screens/ löschen
+Würde ios/ löschen
