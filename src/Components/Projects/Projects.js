@@ -1,3 +1,4 @@
+import './Projects.css';
 import React, {Component} from 'react';
 import ProjectItem from './ProjectItem';
 
@@ -14,6 +15,7 @@ class Projects extends Component {
 
     return (
       <div className="Projects">
+        <h4>Soundcloud Artists</h4>
         {projectItems}
       </div>
     );

@@ -6,9 +6,10 @@ class ProjectsItem extends Component {
     let ref = 'https://soundcloud.com/' + project.url;
     return (
       <div className="Projects">
-        <a href={ref}>
-          {project.artist} - {project.category}
-        </a>
+        <li>
+          <span>{project.category} - </span>
+          <a href={ref} target="_blank">{project.artist}</a>
+        </li>
       </div>
     );
   }
