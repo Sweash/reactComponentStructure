@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Component Structure",
+  "name": "React Component Structure",
   "icons": [
     {
       "src": "favicon.ico",

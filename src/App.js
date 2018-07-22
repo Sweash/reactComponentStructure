@@ -6,7 +6,23 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      projects: [{title: 'Business', category: 'Dev'},{title: 'NotBusiness', category: 'NotDev'}]
+      projects: [
+        {artist: 'Tekkerkane', category: 'Techno', url: 'tekkerkane'},
+        {artist: 'Cannibal Cooking Club', category: 'Techno', url: 'cannibal-cooking-club'},
+        {artist: 'Schrempf', category: 'Techno', url: 'schrempf'},
+        {artist: 'Andi Teller', category: 'Techno', url: 'AndiTeller'},
+        {artist: 'Sutura', category: 'Techno', url: 'suturamusic'},
+        {artist: 'Maytrixx', category: 'Techno', url: 'maytrixxone'},
+        {artist: 'I:Gor', category: 'Techno', url: 'i-gor'},
+        {artist: 'Stormtrooper', category: 'Techno', url: 'stormtrooper'},
+        {artist: 'Petduo', category: 'Techno', url: 'petduo'},
+        {artist: 'Zahni', category: 'Techno', url: 'zahni_live'},
+        {artist: 'KaNNa[d]iSs-L!vE', category: 'Techno', url: 'kanna-d-iss-l-ve'},
+        {artist: 'Borderline', category: 'Techno', url: 'borderlinelive'},
+        {artist: 'Lukas', category: 'Techno', url: 'djlukas'},
+        {artist: 'Fernanda Martins', category: 'Techno', url: 'djfernandamartins'},
+        {artist: 'ViperXXL', category: 'Techno', url: 'viperxxl'}
+      ]
     };
   }
 

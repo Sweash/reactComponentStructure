@@ -7,9 +7,9 @@ class Projects extends Component {
     let projectItems;
 
     if(projects){
-      projectItems = projects.map(project => {
-        return (<ProjectItem key={project.title} project={project}/>)
-      })
+      projectItems = projects.map(project =>{
+        return (<ProjectItem key={project.url} project={project}/>);
+      });
     }
 
     return (
