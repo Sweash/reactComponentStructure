@@ -21,7 +21,7 @@ class App extends Component {
         {artist: 'Borderline', category: 'Techno', url: 'borderlinelive'},
         {artist: 'Lukas', category: 'Techno', url: 'djlukas'},
         {artist: 'Fernanda Martins', category: 'Techno', url: 'djfernandamartins'},
-        {artist: 'ViperXXL', category: 'Techno', url: 'viperxxl'}
+        {artist: 'ViperXL', category: 'Techno', url: 'viperxxl'}
       ]
     };
   }
